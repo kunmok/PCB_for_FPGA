@@ -14,6 +14,9 @@ repo.
 
 ![XEM7310 FPGA Breakout Board (v0.5)](Photo/pcb_v0p5.png)
 
+> **Note:** the photo above shows an **older revision (v0.5)**. The latest version fixes
+> multiple bugs and uses a slightly cheaper BOM.
+
 📄 **The full schematic drawing is in [`FPGA_breakout_board.pdf`](FPGA_breakout_board.pdf).**
 
 > ⚠️ **Power-up sequencing is required for proper operation** when an external 1.2 V supply
@@ -197,7 +200,7 @@ The design passes DRC with **0 violations** (see `Design Rule Check - FPGA_break
 
 - **EDA tool:** Altium Designer. Open `FPGA_breakout_board.PrjPcb` to load the schematic, PCB,
   libraries, and output job.
-- **Fabrication & assembly:** this PCB is **fabricated and assembled by
+- **Fabrication & assembly:** this is a **four-layer PCB**, **fabricated and assembled by
   [JLCPCB](https://jlcpcb.com/)**. Ready-to-send Gerbers, NC drill, BOM, and pick-and-place
   files are in `Project Outputs for FPGA_breakout_board/`. The zipped Gerbers (`Gerber.zip`)
   can be sent directly to a fab house for the 4-layer stack-up above.
