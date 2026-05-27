@@ -108,3 +108,8 @@ Project Outputs for .../       Gerbers, NC drill, BOM, pick & place, DRC report
 
 Open `FPGA_breakout_board.PrjPcb` in Altium Designer. Run the `.OutJob` to regenerate
 manufacturing outputs; ready-to-send Gerbers are in `Project Outputs .../Gerber.zip`.
+
+## Author
+
+Designed by **Kunmo Kim** — [kunmo.kim0225@gmail.com](mailto:kunmo.kim0225@gmail.com) ·
+[kunmok.github.io](https://kunmok.github.io)
