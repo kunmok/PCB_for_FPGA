@@ -12,3 +12,6 @@ Status\ Report.txt
 *.PcbDocPreview
 
 .~lock.*
+
+**/.DS_Store
+
