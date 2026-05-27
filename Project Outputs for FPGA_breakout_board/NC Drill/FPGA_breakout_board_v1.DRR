@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: FPGA_breakout_board_v1.PcbDoc   6/22/2025  11:30:39 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : FPGA_breakout_board_v1.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.305mm)         +/-3mil (0.076mm)                 Round             1370      PTH        172.80inch (4389.19mm)
+T2      12mil (0.305mm)                                           Round             50        PTH        8.42inch (213.97mm)
+T3      28mil (0.711mm)                                           Round             24        PTH        11.56inch (293.71mm)
+T4      34mil (0.86mm)                                            Round             14        PTH        1.10inch (28.00mm)
+T5      35mil (0.9mm)                                             Round             14        PTH        1.02inch (26.00mm)
+T6      38mil (0.965mm)                                           Round             3         PTH        0.35inch (8.89mm)
+T7      40mil (1.016mm)                                           Round             4         PTH        10.64inch (270.13mm)
+T8      40mil (1.02mm)                                            Round             29        PTH        13.63inch (346.30mm)
+T9      43mil (1.1mm)                                             Round             3         PTH        0.20inch (5.08mm)
+T10     47mil (1.194mm)                                           Round             8         PTH        1.02inch (25.82mm)
+T11     59mil (1.5mm)                                             Round             3         PTH        0.46inch (11.58mm)
+T12     126mil (3.2mm)                                            Round             8         PTH        16.37inch (415.92mm)
+T13     215mil (5.45mm)                                           Round             2         PTH        0.70inch (17.84mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1532
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:36:01 AM On 6/22/2025
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : PCB Document [FPGA_breakout_board_v1.PcbDoc]
+   Generated File[fpga_breakout_pick_and_place.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:36:05 AM On 6/22/2025

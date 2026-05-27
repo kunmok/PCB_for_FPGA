@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [FPGA_breakout_board_v1.PcbDoc]
+   Generated File[FPGA_breakout_board_v1.TXT]
+   Generated File[FPGA_breakout_board_v1.LDP]
+   Generated File[FPGA_breakout_board_v1.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:30:40 AM On 6/22/2025
