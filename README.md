@@ -85,13 +85,14 @@ MCP2221A** USB-to-I²C/UART bridge providing an alternate path for some of them.
 
 **Scan chains** — all scan-chain signals are driven by the FPGA. The main board carries two
 independent chains: a **5-pin** chain for analog-circuit control and a **7-pin** chain for
-digital-circuit control. The 7-pin chain runs on a **two-phase non-overlapping clock**,
-making it immune to hold-time violations.
+digital-circuit control. Both chains run at **12.5 Mbps**. The 7-pin chain runs on a
+**two-phase non-overlapping clock**, making it immune to hold-time violations.
 
 **LDO enable** — normally driven by the FPGA, but can alternatively be driven from the
 **MCP2221A GPIO** pins.
 
-**I²C** — normally handled by the **MCP2221A**; the FPGA can drive it as a fallback.
+**I²C** — normally handled by the **MCP2221A** at **100 kbps**; the FPGA can drive it as a
+fallback.
 
 ## Connectors & key parts
 
