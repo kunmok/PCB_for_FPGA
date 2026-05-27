@@ -58,11 +58,17 @@ to measure **CLK jitter** and **ILRO lock status**, otherwise kept off. Because 
 isn't needed, it runs through a dedicated **SN74AXC8T245** translator (`U2`) instead of LVCMOS
 I/O, keeping the FPGA banks free.
 
+## High-speed ADC data interface (SMA)
+
 Two SMA connectors (Bel Cinch 142-0761-881, 26.5 GHz) on **50 Ω microstrip** carry:
 
 - **`MEM_CLK`** — 100 MHz clock, FPGA → SerDes board.
 - **`MEM_DATA_I`** — 100 Mbps retimed ADC output data, SerDes board → FPGA. Tested up to
   **200 Mbps**; likely capable of more, but untested beyond what this setup needed.
+
+Together these two signals drive the SerDes board's **on-chip memory**: `MEM_CLK` clocks the
+read-out while `MEM_DATA_I` streams the stored samples back to the FPGA, letting the FPGA read
+out the retimed ADC data samples held in memory.
 
 ## FFSD cable
 
