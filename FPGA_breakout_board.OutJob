@@ -14,139 +14,10 @@ FolderGUID=
 LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
-[OutputGroup1]
-Name=FPGA_breakout_board.OutJob
-Description=
-TargetOutputMedium=Folder Structure
-VariantName=[No Variations]
-VariantScope=0
-CurrentConfigurationName=
-TargetPrinter=BWRC M553 LaserJet (redirected 1)
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium1=Print Job
-OutputMedium1_Type=Printer
-OutputMedium1_Printer=
-OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium2=PDF
-OutputMedium2_Type=Publish
-OutputMedium3=Folder Structure
-OutputMedium3_Type=GeneratedFiles
-OutputMedium4=Video
-OutputMedium4_Type=Multimedia
-OutputMedium5=pick_and_place
-OutputMedium5_Type=GeneratedFiles
-OutputType1=Schematic Print
-OutputName1=Schematic Prints
-OutputCategory1=Documentation
-OutputDocumentPath1=[Project Physical Documents]
-OutputVariantName1=[No Variations]
-OutputEnabled1=0
-OutputEnabled1_OutputMedium1=0
-OutputEnabled1_OutputMedium2=1
-OutputEnabled1_OutputMedium3=0
-OutputEnabled1_OutputMedium4=0
-OutputEnabled1_OutputMedium5=0
-OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.49|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=
-OutputType2=PCB Print
-OutputName2=PCB Prints
-OutputCategory2=Documentation
-OutputDocumentPath2=FPGA_breakout_board_v1.PcbDoc
-OutputVariantName2=
-OutputEnabled2=0
-OutputEnabled2_OutputMedium1=0
-OutputEnabled2_OutputMedium2=2
-OutputEnabled2_OutputMedium3=0
-OutputEnabled2_OutputMedium4=0
-OutputEnabled2_OutputMedium5=0
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.91|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name2=OutputConfigurationParameter2
-Configuration2_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name3=OutputConfigurationParameter3
-Configuration2_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name4=OutputConfigurationParameter4
-Configuration2_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name5=OutputConfigurationParameter5
-Configuration2_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name6=OutputConfigurationParameter6
-Configuration2_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name7=OutputConfigurationParameter7
-Configuration2_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name8=OutputConfigurationParameter8
-Configuration2_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name9=OutputConfigurationParameter9
-Configuration2_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name10=OutputConfigurationParameter10
-Configuration2_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name11=OutputConfigurationParameter11
-Configuration2_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name12=OutputConfigurationParameter12
-Configuration2_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name13=OutputConfigurationParameter13
-Configuration2_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name14=OutputConfigurationParameter14
-Configuration2_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical20|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name15=OutputConfigurationParameter15
-Configuration2_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical21|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name16=OutputConfigurationParameter16
-Configuration2_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical23|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name17=OutputConfigurationParameter17
-Configuration2_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical24|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-Configuration2_Name18=OutputConfigurationParameter18
-Configuration2_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical29|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
-PcbPrintPreferences2=
-OutputType3=Pick Place
-OutputName3=Generates pick and place files
-OutputCategory3=Assembly
-OutputDocumentPath3=FPGA_breakout_board_v1.PcbDoc
-OutputVariantName3=
-OutputEnabled3=0
-OutputEnabled3_OutputMedium1=0
-OutputEnabled3_OutputMedium2=0
-OutputEnabled3_OutputMedium3=0
-OutputEnabled3_OutputMedium4=0
-OutputEnabled3_OutputMedium5=1
-OutputDefault3=0
-Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=True|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Conn Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#18=Name:Package Reference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:146,Type:0|Column#19=Name:High Level Output Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:74,Type:0|Column#20=Name:Vout Adj(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:208,Type:0|Column#21=Name:REACH SVHC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:169,Type:0|Column#22=Name:Plug/Mating Plug Diameter,Fixed:False,Metric:False,Visible:False,Sort:None,Position:159,Type:0|Column#23=Name:Tradename,Fixed:False,Metric:False,Visible:False,Sort:None,Position:196,Type:0|Column#24=Name:Mfr_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:109,Type:0|Column#25=Name:ESR (Equivalent Series Resistance),Fixed:False,Metric:False,Visible:False,Sort:None,Position:61,Type:0|Column#26=Name:Case Code (Metric),Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#27=Name:Military Standard,Fixed:False,Metric:False,Visible:False,Sort:None,Position:110,Type:0|Column#28=Name:Leakage Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:91,Type:0|Column#29=Name:Min Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:111,Type:0|Column#30=Name:Iq(Typ)(mA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:87,Type:0|Column#31=Name:Manufacturer URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:102,Type:0|Column#32=Name:Lens Style,Fixed:False,Metric:False,Visible:False,Sort:None,Position:94,Type:0|Column#33=Name:RoHSCompliant,Fixed:False,Metric:False,Visible:False,Sort:None,Position:180,Type:0|Column#34=Name:Gender,Fixed:False,Metric:False,Visible:False,Sort:None,Position:71,Type:0|Column#35=Name:Case/Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#36=Name:Eco-Plan,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60,Type:0|Column#37=Name:Operating Junction and Storage Temperature Range,Fixed:False,Metric:False,Visible:False,Sort:None,Position:138,Type:0|Column#38=Name:Lens Transparency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:95,Type:0|Column#39=Name:Luminous Intensity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:99,Type:0|Column#40=Name:Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:156,Type:0|Column#41=Name:ComponentLink3URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#42=Name:Number of Ports,Fixed:False,Metric:False,Visible:False,Sort:None,Position:132,Type:0|Column#43=Name:Dissipation Factor,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58,Type:0|Column#44=Name:Temperature Range High,Fixed:False,Metric:False,Visible:False,Sort:None,Position:188,Type:0|Column#45=Name:Forward Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:68,Type:0|Column#46=Name:Reverse Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:174,Type:0|Column#47=Name:Manufacturer_PN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:103,Type:0|Column#48=Name:Brand,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#49=Name:RoHS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:178,Type:0|Column#50=Name:partnumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:155,Type:0|Column#51=Name:Weight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:211,Type:0|Column#52=Name:Device Class L3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53,Type:0|Column#53=Name:Datasheet URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45,Type:0|Column#54=Name:Lead Free,Fixed:False,Metric:False,Visible:False,Sort:None,Position:89,Type:0|Column#55=Name:Radiation Hardening,Fixed:False,Metric:False,Visible:False,Sort:None,Position:168,Type:0|Column#56=Name:Revision,Fixed:False,Metric:False,Visible:False,Sort:None,Position:175,Type:0|Column#57=Name:Power Dissipation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:161,Type:0|Column#58=Name:SubFamily,Fixed:False,Metric:False,Visible:False,Sort:None,Position:182,Type:0|Column#59=Name:Mouser Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:118,Type:0|Column#60=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#61=Name:Iout(Max)(A),Fixed:False,Metric:False,Visible:False,Sort:None,Position:86,Type:0|Column#62=Name:Case\/Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#63=Name:Case Code (Imperial),Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#64=Name:IFSM,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80,Type:0|Column#65=Name:Height - Seated (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:73,Type:0|Column#66=Name:Housing Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76,Type:0|Column#67=Name:Power Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:162,Type:0|Column#68=Name:Housing Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77,Type:0|Column#69=Name:Impedance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:82,Type:0|Column#70=Name:Length,Fixed:False,Metric:False,Visible:False,Sort:None,Position:92,Type:0|Column#71=Name:Logic Function,Fixed:False,Metric:False,Visible:False,Sort:None,Position:97,Type:0|Column#72=Name:fT Min (MHz),Fixed:False,Metric:False,Visible:False,Sort:None,Position:70,Type:0|Column#73=Name:Max Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:106,Type:0|Column#74=Name:Thickness,Fixed:False,Metric:False,Visible:False,Sort:None,Position:194,Type:0|Column#75=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:154,Type:0|Column#76=Name:Number of Bits per Element,Fixed:False,Metric:False,Visible:False,Sort:None,Position:122,Type:0|Column#77=Name:Number Of Inputs,Fixed:False,Metric:False,Visible:False,Sort:None,Position:127,Type:0|Column#78=Name:VBR Bi-Directional (V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:199,Type:0|Column#79=Name:Termination Style,Fixed:False,Metric:False,Visible:False,Sort:None,Position:191,Type:0|Column#80=Name:Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:185,Type:0|Column#81=Name:Illumination Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:81,Type:0|Column#82=Name:Device Class L2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52,Type:0|Column#83=Name:Width,Fixed:False,Metric:False,Visible:False,Sort:None,Position:212,Type:0|Column#84=Name:Mounting Angle,Fixed:False,Metric:False,Visible:False,Sort:None,Position:114,Type:0|Column#85=Name:Description 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50,Type:0|Column#86=Name:Ripple Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:176,Type:0|Column#87=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#88=Name:Construction,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#89=Name:Dielectric Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56,Type:0|Column#90=Name:Code_JEDEC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#91=Name:Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:141,Type:0|Column#92=Name:Lens Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:93,Type:0|Column#93=Name:Package Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:148,Type:0|Column#94=Name:Ripple Current (AC),Fixed:False,Metric:False,Visible:False,Sort:None,Position:177,Type:0|Column#95=Name:Quiescent Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:167,Type:0|Column#96=Name:Body Plating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#97=Name:Device Class L1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51,Type:0|Column#98=Name:Temperature Range Low,Fixed:False,Metric:False,Visible:False,Sort:None,Position:189,Type:0|Column#99=Name:Vin(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:203,Type:0|Column#100=Name:Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#101=Name:VWM (V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:209,Type:0|Column#102=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|Column#103=Name:Number of Positions,Fixed:False,Metric:False,Visible:False,Sort:None,Position:133,Type:0|Column#104=Name:Product Category,Fixed:False,Metric:False,Visible:False,Sort:None,Position:164,Type:0|Column#105=Name:Package Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:144,Type:0|Column#106=Name:Voltage Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:205,Type:0|Column#107=Name:RefDes,Fixed:False,Metric:False,Visible:False,Sort:None,Position:170,Type:0|Column#108=Name:Flammability Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66,Type:0|Column#109=Name:PackageVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:151,Type:0|Column#110=Name:Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:104,Type:0|Column#111=Name:Number of LEDs,Fixed:False,Metric:False,Visible:False,Sort:None,Position:128,Type:0|Column#112=Name:Operating Supply Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:139,Type:0|Column#113=Name:Mounting Style,Fixed:False,Metric:False,Visible:False,Sort:None,Position:115,Type:0|Column#114=Name:Fixed Output Options(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:65,Type:0|Column#115=Name:Low Level Output Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:98,Type:0|Column#116=Name:DatasheetVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47,Type:0|Column#117=Name:ComponentLink3Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#118=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:157,Type:0|Column#119=Name:Datasheet Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46,Type:0|Column#120=Name:Package Quantity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:145,Type:0|Column#121=Name:RoHS Compliant,Fixed:False,Metric:False,Visible:False,Sort:None,Position:179,Type:0|Column#122=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:204,Type:0|Column#123=Name:Outside Diameter,Fixed:False,Metric:False,Visible:False,Sort:None,Position:142,Type:0|Column#124=Name:Package URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:147,Type:0|Column#125=Name:Category,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#126=Name:Termination Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:192,Type:0|Column#127=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:113,Type:0|Column#128=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:152,Type:0|Column#129=Name:Contact Plating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#130=Name:Body Meaterial,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#131=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:131,Type:0|Column#132=Name:Digikey Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57,Type:0|Column#133=Name:NexarPartId,Fixed:False,Metric:False,Visible:False,Sort:None,Position:120,Type:0|Column#134=Name:Packing,Fixed:False,Metric:False,Visible:False,Sort:None,Position:153,Type:0|Column#135=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:171,Type:0|Column#136=Name:Voltage Rating (DC),Fixed:False,Metric:False,Visible:False,Sort:None,Position:206,Type:0|Column#137=Name:Lead Diameter,Fixed:False,Metric:False,Visible:False,Sort:None,Position:88,Type:0|Column#138=Name:Lead Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:90,Type:0|Column#139=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:183,Type:0|Column#140=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:195,Type:0|Column#141=Name:Number of Contacts,Fixed:False,Metric:False,Visible:False,Sort:None,Position:124,Type:0|Column#142=Name:Product Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:165,Type:0|Column#143=Name:Resistance Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:172,Type:0|Column#144=Name:updated_on,Fixed:False,Metric:False,Visible:False,Sort:None,Position:198,Type:0|Column#145=Name:Contact Finish,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#146=Name:Max Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:105,Type:0|Column#147=Name:Current Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44,Type:0|Column#148=Name:Composition,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#149=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#150=Name:Termination,Fixed:False,Metric:False,Visible:False,Sort:None,Position:190,Type:0|Column#151=Name:Accuracy(%),Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#152=Name:Temperature Coefficient,Fixed:False,Metric:False,Visible:False,Sort:None,Position:187,Type:0|Column#153=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:149,Type:0|Column#154=Name:IC Continuous (A),Fixed:False,Metric:False,Visible:False,Sort:None,Position:78,Type:0|Column#155=Name:Resistor Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:173,Type:0|Column#156=Name:Max Power Dissipation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:107,Type:0|Column#157=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:150,Type:0|Column#158=Name:Vin(Max)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:202,Type:0|Column#159=Name:Series,Fixed:False,Metric:False,Visible:False,Sort:None,Position:181,Type:0|Column#160=Name:Factory Pack Quantity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62,Type:0|Column#161=Name:Max Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:108,Type:0|Column#162=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#163=Name:Features,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64,Type:0|Column#164=Name:Mounting Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:117,Type:0|Column#165=Name:PPPM (W),Fixed:False,Metric:False,Visible:False,Sort:None,Position:163,Type:0|Column#166=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72,Type:0|Column#167=Name:Test Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:193,Type:0|Column#168=Name:Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:186,Type:0|Column#169=Name:Number of Terminations,Fixed:False,Metric:False,Visible:False,Sort:None,Position:136,Type:0|Column#170=Name:Diameter,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54,Type:0|Column#171=Name:Hole Diameter,Fixed:False,Metric:False,Visible:False,Sort:None,Position:75,Type:0|Column#172=Name:Body Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#173=Name:ClassName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#174=Name:Vout Adj(Max)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:207,Type:0|Column#175=Name:Mouting Style,Fixed:False,Metric:False,Visible:False,Sort:None,Position:119,Type:0|Column#176=Name:Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:210,Type:0|Column#177=Name:Min Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:112,Type:0|Column#178=Name:Inside Diameter,Fixed:False,Metric:False,Visible:False,Sort:None,Position:83,Type:0|Column#179=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:116,Type:0|Column#180=Name:Number of Output Lines,Fixed:False,Metric:False,Visible:False,Sort:None,Position:129,Type:0|Column#181=Name:Conn Gender,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#182=Name:Family,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63,Type:0|Column#183=Name:Octopart,Fixed:False,Metric:False,Visible:False,Sort:None,Position:137,Type:0|Column#184=Name:Vdo(Typ)(mV),Fixed:False,Metric:False,Visible:False,Sort:None,Position:200,Type:0|Column#185=Name:Polarity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:160,Type:0|Column#186=Name:Number Of Outputs,Fixed:False,Metric:False,Visible:False,Sort:None,Position:130,Type:0|Column#187=Name:Number of Positions / Contacts,Fixed:False,Metric:False,Visible:False,Sort:None,Position:134,Type:0|Column#188=Name:Number of Bits,Fixed:False,Metric:False,Visible:False,Sort:None,Position:121,Type:0|Column#189=Name:Insulation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:84,Type:0|Column#190=Name:Wire Gauge,Fixed:False,Metric:False,Visible:False,Sort:None,Position:213,Type:0|Column#191=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:184,Type:0|Column#192=Name:Forward Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69,Type:0|Column#193=Name:Viewing Angle,Fixed:False,Metric:False,Visible:False,Sort:None,Position:201,Type:0|Column#194=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:100,Type:0|Column#195=Name:Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:197,Type:0|Column#196=Name:Life (Hours),Fixed:False,Metric:False,Visible:False,Sort:None,Position:96,Type:0|Column#197=Name:Number of Rows,Fixed:False,Metric:False,Visible:False,Sort:None,Position:135,Type:0|Column#198=Name:Plating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:158,Type:0|Column#199=Name:Number Of Channels,Fixed:False,Metric:False,Visible:False,Sort:None,Position:123,Type:0|Column#200=Name:ID (uA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:79,Type:0|Column#201=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:143,Type:0|Column#202=Name:Contact Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#203=Name:Automotive,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#204=Name:Date,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48,Type:0|Column#205=Name:Propagation Delay,Fixed:False,Metric:False,Visible:False,Sort:None,Position:166,Type:0|Column#206=Name:Number of Elements,Fixed:False,Metric:False,Visible:False,Sort:None,Position:125,Type:0|Column#207=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55,Type:0|Column#208=Name:Number of Input Lines,Fixed:False,Metric:False,Visible:False,Sort:None,Position:126,Type:0|Column#209=Name:Dominant Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59,Type:0|Column#210=Name:Insulation Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:85,Type:0|Column#211=Name:Footprint Url,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67,Type:0|Column#212=Name:Depth,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49,Type:0|Column#213=Name:Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:140,Type:0|Column#214=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:101,Type:0|Column#215=Name:Check_prices,Fixed:False,Metric:False,Visible:False,Sort:None,Position:214,Type:0|Column#216=Name:SnapEDA_Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:218,Type:0|Column#217=Name:MF,Fixed:False,Metric:False,Visible:False,Sort:None,Position:216,Type:0|Column#218=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:219,Type:0|Column#219=Name:MP,Fixed:False,Metric:False,Visible:False,Sort:None,Position:217,Type:0|Column#220=Name:Digi-Key_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:215,Type:0|DocumentPath=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\FPGA_breakout_board_v1.PcbDoc
-OutputType4=Gerber
-OutputName4=Gerber Files
-OutputCategory4=Fabrication
-OutputDocumentPath4=FPGA_breakout_board_v1.PcbDoc
-OutputVariantName4=
-OutputEnabled4=1
-OutputEnabled4_OutputMedium1=0
-OutputEnabled4_OutputMedium2=0
-OutputEnabled4_OutputMedium3=1
-OutputEnabled4_OutputMedium4=0
-OutputEnabled4_OutputMedium5=0
-OutputDefault4=0
-Configuration4_Name1=OutputConfigurationParameter1
-Configuration4_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=BFSOVMUX|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=False|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=6|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842753~1,16842754~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\FPGA_breakout_board_v1.PcbDoc
-OutputType5=NC Drill
-OutputName5=NC Drill Files
-OutputCategory5=Fabrication
-OutputDocumentPath5=FPGA_breakout_board_v1.PcbDoc
-OutputVariantName5=
-OutputEnabled5=1
-OutputEnabled5_OutputMedium1=0
-OutputEnabled5_OutputMedium2=0
-OutputEnabled5_OutputMedium3=2
-OutputEnabled5_OutputMedium4=0
-OutputEnabled5_OutputMedium5=0
-OutputDefault5=0
-Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\FPGA_breakout_board_v1.PcbDoc
-
 [PublishSettings]
-OutputFilePath2=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\Project Outputs for FPGA_breakout_board\FPGA_breakout_board.pdf
-ReleaseManaged2=1
-OutputBasePath2=Project Outputs for FPGA_breakout_board
+OutputFilePath2=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\.PDF
+ReleaseManaged2=0
+OutputBasePath2=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -171,9 +42,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\Project Outputs for FPGA_breakout_board\
+OutputFilePath3=
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for FPGA_breakout_board
+OutputBasePath3=
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -186,7 +57,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for FPGA_breakout_board
+OutputBasePath4=
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -236,9 +107,9 @@ OutputFileNameSpecial5=
 OpenOutput5=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\Project Outputs for FPGA_breakout_board\FPGA_breakout_board.pdf
+RelativeOutputPath2=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\lawfu\Documents\PCB\pcb-for-fpga-breakout\Project Outputs for FPGA_breakout_board\
+RelativeOutputPath3=
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
@@ -260,4 +131,87 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
+
+[OutputGroup1]
+Name=
+Description=
+TargetOutputMedium=PDF
+VariantName=[No Variations]
+VariantScope=0
+CurrentConfigurationName=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=PDF
+OutputMedium2_Type=Publish
+OutputMedium3=Folder Structure
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Video
+OutputMedium4_Type=Multimedia
+OutputType1=Schematic Print
+OutputName1=Schematic Prints
+OutputCategory1=Documentation
+OutputDocumentPath1=[Project Physical Documents]
+OutputVariantName1=[No Variations]
+OutputEnabled1=1
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.49|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=
+OutputType2=PCB Print
+OutputName2=PCB Prints
+OutputCategory2=Documentation
+OutputDocumentPath2=FPGA_breakout_board_v1.PcbDoc
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=2
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.91|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name2=OutputConfigurationParameter2
+Configuration2_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name3=OutputConfigurationParameter3
+Configuration2_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name4=OutputConfigurationParameter4
+Configuration2_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name5=OutputConfigurationParameter5
+Configuration2_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name6=OutputConfigurationParameter6
+Configuration2_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name7=OutputConfigurationParameter7
+Configuration2_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name8=OutputConfigurationParameter8
+Configuration2_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name9=OutputConfigurationParameter9
+Configuration2_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name10=OutputConfigurationParameter10
+Configuration2_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name11=OutputConfigurationParameter11
+Configuration2_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name12=OutputConfigurationParameter12
+Configuration2_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name13=OutputConfigurationParameter13
+Configuration2_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name14=OutputConfigurationParameter14
+Configuration2_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical20|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name15=OutputConfigurationParameter15
+Configuration2_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical21|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name16=OutputConfigurationParameter16
+Configuration2_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical23|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name17=OutputConfigurationParameter17
+Configuration2_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical24|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+Configuration2_Name18=OutputConfigurationParameter18
+Configuration2_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical29|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\kunmo.kim0225\Documents\PCB\FPGA_breakout_board\FPGA_breakout_board_v1.PcbDoc
+PcbPrintPreferences2=
 
