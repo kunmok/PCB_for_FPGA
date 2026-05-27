@@ -21,7 +21,7 @@ shifting, clock probes, debug, and I²C support needed for bring-up and characte
 | | |
 |---|---|
 | FPGA module | Opal Kelly XEM7310 |
-| PCB | 4-layer; fabricated & assembled by [JLCPCB](https://jlcpcb.com/) |
+| PCB | 4-layer; fabricated & assembled by <a href="https://jlcpcb.com/" target="_blank" rel="noopener noreferrer">JLCPCB</a> |
 | `MC2` bank | LVCMOS12 — 1.2 V (TPS7A5701, adjustable) |
 | `MC1` bank | LVCMOS33 — 3.3 V (TLV1117LV33) |
 | Power in | 5 V — barrel jack / banana / VBUS, TVS-protected |
@@ -45,8 +45,8 @@ VBUS, protected by a TVS diode (`D3`). Two on-board LDOs generate the FPGA bank 
 > prevent damage. Follow the schematic order **+5 V → +1.2 V (VCCO_MC2) → +3.3 V (VCCO_MC1)**.
 > Before driving 1.2 V into `VCCO_MC2`, isolate the XEM7310's own supply path (**do not touch
 > FB8** per the schematic) to avoid back-driving the module. See Opal Kelly's
-> [Powering the XEM7310](https://docs.opalkelly.com/xem7310/powering-the-xem7310/) for the
-> module's power requirements.
+> <a href="https://docs.opalkelly.com/xem7310/powering-the-xem7310/" target="_blank" rel="noopener noreferrer">Powering the XEM7310</a>
+> for the module's power requirements.
 
 The XEM7310 `PG_5V5` power-good flag crosses the voltage boundary via **two-step level
 shifting** (two SN74LV1T34 buffers, `U_LS1` / `U_LS2`) — the reason the sequence above matters.
