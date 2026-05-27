@@ -78,6 +78,21 @@ ribbon cable (`J_ESHF`, ESHF-125-01-L-D-SM), whose characteristic impedance was 
 **≈100 Ω** in the lab. Matching **100 Ω series resistors** (`R4`–`R31`, 0402) sit close to the
 connector on the driver side.
 
+## Control & configuration
+
+Most configuration signals originate from the **XEM7310 FPGA**, with a **Microchip
+MCP2221A** USB-to-I²C/UART bridge providing an alternate path for some of them.
+
+**Scan chains** — all scan-chain signals are driven by the FPGA. The main board carries two
+independent chains: a **5-pin** chain for analog-circuit control and a **7-pin** chain for
+digital-circuit control. The 7-pin chain runs on a **two-phase non-overlapping clock**,
+making it immune to hold-time violations.
+
+**LDO enable** — normally driven by the FPGA, but can alternatively be driven from the
+**MCP2221A GPIO** pins.
+
+**I²C** — normally handled by the **MCP2221A**; the FPGA can drive it as a fallback.
+
 ## Connectors & key parts
 
 | Function | Part | Designator(s) |
@@ -88,6 +103,7 @@ connector on the driver side.
 | SMA clk/data (26.5 GHz) | Bel Cinch 142-0761-881 | `J_MEM_CLK`, `J_MEM_DATA` |
 | JTAG (ILA, 2×7, 2 mm) | Molex 87831-1420 | `J_JTAG` |
 | I²C — Qwiic / headers | Würth 61300311121 / Samtec TSW | `P1` / `J_SCL*`, `J_SDA*` |
+| USB-to-I²C/UART bridge | Microchip MCP2221A | `U3` |
 | 1.2 V LDO (5 A, adj.) | TI TPS7A5701RTER | `U5` |
 | 3.3 V LDO (1 A) | TI TLV1117LV33DCYR | `U1` |
 | Level translator (CLKQUAD) | TI SN74AXC8T245RHLR | `U2` |
