@@ -36,7 +36,7 @@ VBUS, protected by a TVS diode (`D3`). Two on-board LDOs generate the FPGA bank 
 
 | Bank | I/O standard | Supply | LDO |
 |------|--------------|--------|-----|
-| `MC2` | LVCMOS12 | 1.2 V — adjustable via `P1V2_POT` (Bourns 3266W, 50 kΩ) | TPS7A5701 (`U5`) |
+| `MC2` | LVCMOS12 | 1.2 V — adjustable via `P1V2_POT` (Bourns 3266W-1-503, 50 kΩ) | TPS7A5701 (`U5`) |
 | `MC1` | LVCMOS33 | 3.3 V | TLV1117LV33 (`U1`) |
 
 `MC1` runs at 3.3 V because the on-chip **LT3074**'s enable input requires a 3.3 V signal.
