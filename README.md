@@ -1,8 +1,8 @@
 # XEM7310 FPGA Breakout Board
 
 Custom breakout / interface board for the
-[Opal Kelly XEM7310](https://opalkelly.com/products/xem7310/) FPGA module, designed in Altium
-Designer at the **Berkeley Wireless Research Center (BWRC)**.
+[Opal Kelly XEM7310](https://opalkelly.com/products/xem7310/) FPGA module, designed by
+**Kunmo Kim** in Altium Designer at the **Berkeley Wireless Research Center (BWRC)**.
 
 It mates to the XEM7310 through two mezzanine connectors and fans the FPGA's scan-chain,
 analog, and digital signals out to the main/DUT board —
