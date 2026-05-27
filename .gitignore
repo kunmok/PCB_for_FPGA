@@ -1,3 +1,14 @@
 History/*
 Project Logs for FPGA_breakout_board/*
 __Previews/*
+
+Project\ Logs*
+Project\ Outputs*
+
+debug.log
+Status\ Report.txt
+*.PcbDoc.htm
+*.SchDocPreview
+*.PcbDocPreview
+
+.~lock.*
