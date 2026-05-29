@@ -82,6 +82,7 @@ connector on the driver side.
 
 Most configuration signals originate from the **XEM7310 FPGA**, with a **Microchip
 MCP2221A** USB-to-I²C/UART bridge providing an alternate path for some of them.
+- I2C Control: Special thanks to @nonNoise for their [PyMCP2221A repository](https://github.com/nonNoise/PyMCP2221A), which was instrumental in implementing I2C control via the MCP2221A for this project.
 
 **Scan chains** — all scan-chain signals are driven by the FPGA. The main board carries two
 independent chains: a **5-pin** chain for analog-circuit control and a **7-pin** chain for
